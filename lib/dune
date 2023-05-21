@@ -1,0 +1,4 @@
+(library
+ (name luthor)
+ (preprocess
+  (pps ppx_compare ppx_deriving.show ppx_sexp_conv)))
